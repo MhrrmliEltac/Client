@@ -14,7 +14,7 @@ export const getLoginUser = createAsyncThunk(
   async (user, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "https://server-node-js-pearl.vercel.app/api/users/signin",
+        "http://localhost:5000/users/signin",
         user
       );
       return response.data;
@@ -29,7 +29,7 @@ export const getSignUpUser = createAsyncThunk(
   async (user, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "https://server-node-js-pearl.vercel.app/api/users/signup",
+        "http://localhost:5000/users/signup",
         user
       );
       return response.data;
