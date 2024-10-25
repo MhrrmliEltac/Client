@@ -40,7 +40,7 @@ Once the application is running, you can navigate through the various features:
 
 - **Author:** Eltaj Maharramli - The developer behind Coza Store.
 
-## Azərbaycan language
+## Azerbaijan language
 
 # Coza Store
 
