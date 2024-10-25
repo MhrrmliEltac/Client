@@ -1,0 +1,59 @@
+.login-form {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
+  .login-label {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .login-input {
+    border: 1px solid #c9c9cc;
+    padding-left: 5px;
+    border-radius: 2px;
+    font-size: 15px;
+    outline: none;
+  }
+  .login-btn {
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #0084ff;
+    margin: 5px 0;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 1.2rem;
+  }
+  .login-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .login-box {
+    margin: 5px 0;
+  }
+}
+.validate {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  .validate-text {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  span {
+    margin-right: 5px;
+  }
+  .hidden {
+    display: none;
+  }
+  .green {
+    color: green;
+  }
+}
